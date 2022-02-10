@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.firsthalf{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    right: 10%;
+}
+.banner-text h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-text{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.banner-text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95rem;
+    padding: 0.5rem;
+}
+.nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 75%);
+}
+
+.second-half{
+    background-color: #F8F8FE;
+    margin-top: 10%;
+    padding: 10% 0;
+}
+
+.second-half h1{
+    font-size: 2em;
+    margin-top: 4%;
+}
+
+.second-half p{
+    font-weight: 470;
+    margin-top: 4%;
+}
+
+.about-image img{
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+#link{
+    font-size: 0.85rem;
+    border: none;
+    outline: none;
+    color: #3c9f8f;
+    text-decoration: underline;
+    margin-left: 11%;
+}
+
+#review{
+    background-color: white;
+    width: 45%;
+    /* margin-top: 4%; */
+    text-align: center;
+    margin: auto;
+
+}
+
+#author{
+    display: flex;
+    justify-content: center;
+}
+
+#author img{
+    border-radius: 50%;
+    height: 4%;
+    width: 13%;
+    margin-right: 0.5rem;
+}
+
+#author p{
+    font-weight: bolder;
+    display: block;
+}
+
+.third-half{
+   background-color:  #585989;
+   padding: 10% 0;
+}
+.mail{
+    margin-top: 5%;
+}
+.mail input{
+    width: 90%;
+    padding: 8px 0;
+}
+
+.mail button{
+    margin-top: 2%;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.last{
+    background-color: #070439;
+}
+
+.one p, .two li, .three li{
+    color: white;
+    list-style-type: none;
+    font-size: 1.04rem;
+}
+
+.two li, .three li{
+    padding-top: 10px;
+}
+
+.one, .two, .three{
+    padding: 7%;
+}
+
+i{
+    color: white;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .firsthalf{
+        position: absolute;
+        left: 20px;
+        top: 3%;
+        right: 20px;
+        background-color: red;
+    }
+    input{
+        display: block;
+        margin: auto;
+        width: 60%;
+    }
+
+    .second-half h1{
+        font-size: 1.432424rem;
+        margin-left: 4%;
+    }
+
+    .second-half p{
+        margin-left: 4%;
+    }
+
+    .banner-text button{
+        margin-top: 2%;
+    }
+
+    .about-image img{
+        margin: auto;
+        display: block;
+        height: 80%;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 4%;
+    }
+
+    #link{
+        margin-left: 100px;
+    }
+
+    .links{
+        margin-bottom: 5%;
+        margin-left: 40px;
+    }
+
+    #review{
+        margin: auto;
+        width: 70%;
+    }
+
+    .mail button{
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .one,.two,.three,.fourth{
+        margin-left: 18%;
+    }
+
+  }
